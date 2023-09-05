@@ -16,10 +16,20 @@ void Print(int arr[], int size)
 	cout << endl;
 }
 
+void Reverse(int arr[], int size)
+{
+	for (int i = size - 1; i >= 0; i--)
+	{
+		cout << arr[i] << "\t";
+	}
+	cout << endl;
+}
+
 int main()
 {
 	int arr[5];
 	Init(arr, 5);
 	Print(arr, 5);
+	Reverse(arr, 5);
 	
 }
