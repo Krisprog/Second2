@@ -10,6 +10,10 @@ void Func2()
 {
 
 }
+void Func3()
+{
+
+}
 int main()
 {
 	
