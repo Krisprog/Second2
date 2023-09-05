@@ -31,5 +31,9 @@ int main()
 	Init(arr, 5);
 	Print(arr, 5);
 	Reverse(arr, 5);
+
+	double arr2[5];
+	Init((int*)arr2, 5);
+	Print((int*)arr2, 5);
 	
 }
