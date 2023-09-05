@@ -1,19 +1,25 @@
 #include<iostream>
 using namespace std;
-
-void Print(string str)
+void Init(int arr[], int size)
 {
-	cout << str << endl;
+	for (int i = 0; i < size; i++)
+	{
+		arr[i] = i + 1;
+	}
 }
-
-int Sum(int a, int b)
+void Print(int arr[], int size)
 {
-	return a + b;
+	for (int i = 0; i < size; i++)
+	{
+		cout << arr[i] << "\t";
+	}
+	cout << endl;
 }
 
 int main()
 {
-	Print("Hello World");
-
-	cout << Sum(10, 20)<<endl;
+	int arr[5];
+	Init(arr, 5);
+	Print(arr, 5);
+	
 }
